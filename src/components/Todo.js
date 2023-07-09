@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+//useState is to initialise and update through setState functionality
 function Todo() {
   const [activity, setActivity] = useState("");
   const [listData, setListData] = useState([]);
